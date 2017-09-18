@@ -1,0 +1,8 @@
+Angular new features
+- Server side rendering
+- Ahead of time compilation
+-Ultra-fast change detection
+
+- More Investegation
+  - TypeScript
+  - Node.js

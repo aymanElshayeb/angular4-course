@@ -7,13 +7,13 @@ The course contains 5 Sessions each Session contains powerpoint session , exerci
 
 Session 1 : Intorduction
 
-Session 2 :
+Session 2 :  Basic component  (Bindin data)
 
-Session 3 :
+Session 3 :  Components , Services , and Dependency Injections, Pipes
 
-Session 4 :
+Session 4 : Forms
 
-Session 5 :
+Session 5 : Observal , AsyncPipe and HTTP client
 
 
 
