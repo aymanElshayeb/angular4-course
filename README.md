@@ -66,3 +66,8 @@ Session 6 option: and (Testing and Angular Material)
   - TypeScript
   - Testing
   - Observal
+  
+ # session vedio
+ you can see the session vedios in this links
+ https://youtu.be/stIWkf1mbPI
+ 
