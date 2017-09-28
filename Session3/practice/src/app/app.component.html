@@ -1,0 +1,9 @@
+
+<h1>Parent Component</h1>
+
+
+
+<div>Message from child :{{messageFromChild}}</div>
+<button (click)="sendGreetToChild()">Send Greeting message to Child</button>
+
+<app-detail-component [messageFromParent]="messageToChild" (messageToParent)="setMessageFromChild($event)"></app-detail-component>

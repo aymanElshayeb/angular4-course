@@ -1,3 +1,22 @@
 
-<h1>Hello World </h1>
+<h1>{{title}}</h1>
+<img [src]="logo"/>
+<h2>{{message}}</h2>
+ <input type="text" (keypress)="showTitle($event)"/>
+ <img [src]="logo1" *ngIf="logo"/>
+ <ul>
+  <li *ngFor = "let book of books"> 
+  	{{book}}
+  </li>
+  
+  <div [ngSwitch]= "selectedBook">
+  <template [ngSwitchCase]="'Book1'">Selected book is book 1</template>
+  <template [ngSwitchCase]="'Book2'">Selected book is book 2</template>
+  <template [ngSwitchCase]="'Book3'">Selected book is book 3</template>
+  <template ngSwitchDefault>This book does not exist in our Store</template>
+  </div>
+  
+  <p [ngStyle]="getInlineStyle(selectedBook)">{{selectedBook}}</p>
+</ul>
+
 
